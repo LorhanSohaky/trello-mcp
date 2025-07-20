@@ -1,0 +1,38 @@
+{
+	"name": "trello-mcp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"module": "./src/index.ts",
+	"type": "module",
+	"engines": {
+		"node": ">=22.7.0",
+		"npm": ">=10.8.2"
+	},
+	"scripts": {
+		"dev": "npx @smithery/cli dev",
+		"lint:fix": "biome format --write . && biome check --write .",
+		"lint": "biome lint --error-on-warnings --write ."
+	},
+	"homepage": "https://github.com/LorhanSohaky/trello-mcp#readme",
+	"bugs": {
+		"url": "https://github.com/LorhanSohaky/trello-mcp/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LorhanSohaky/trello-mcp.git"
+	},
+	"keywords": [],
+	"author": "Lorhan Sohaky <contato+gi74@lorhan.me>",
+	"license": "MIT",
+	"dependencies": {
+		"@biomejs/biome": "^2.1.2",
+		"@modelcontextprotocol/sdk": "^1.12.1",
+		"lefthook": "^1.12.2",
+		"zod": "^3.25.46"
+	},
+	"devDependencies": {
+		"@smithery/cli": "^1.2.4",
+		"tsx": "^4.19.4"
+	}
+}

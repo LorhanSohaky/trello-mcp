@@ -1,0 +1,60 @@
+### SMITHERY ###
+.smithery
+
+### ASDF ###
+.tool-versions
+
+### NODE ###
+
+# DOTENV ENVIRONMENT VARIABLE FILES
+.env
+
+# LOGS
+logs
+*.log
+npm-debug.log*
+
+# DEPENDENCY DIRECTORIES
+node_modules/
+
+### VIM ###
+
+# SWAP
+[._]*.s[a-v][a-z]
+!*.svg  # COMMENT OUT IF YOU DON'T NEED VECTOR FILES
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# SESSION
+Session.vim
+Sessionx.vim
+
+# TEMPORARY
+.netrwhist
+*~
+# AUTO-GENERATED TAG FILES
+tags
+
+# PERSISTENT UNDO
+[._]*.un~
+
+### VISUALSTUDIOCODE ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# LOCAL HISTORY FOR VISUAL STUDIO CODE
+.history/
+
+# BUILT VISUAL STUDIO CODE EXTENSIONS
+*.vsix
+
+### VISUALSTUDIOCODE PATCH ###
+# IGNORE ALL LOCAL HISTORY OF FILES
+.history
+.ionide
