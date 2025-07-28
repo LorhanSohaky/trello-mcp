@@ -250,7 +250,7 @@ export const Card = z
 		idMembersVoted: z.array(TrelloID),
 		idShort: z.number().int(),
 		idAttachmentCover: TrelloID.regex(/^[0-9a-fA-F]{24}$/).nullable(),
-		labels: z.array(TrelloID),
+		labels: z.array(Label),
 		limits: Limits,
 		locationName: z.string().nullable(),
 		manualCoverAttachment: z.boolean(),
