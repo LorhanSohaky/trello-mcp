@@ -34,7 +34,7 @@
 		"zod": "^3.25.76"
 	},
 	"devDependencies": {
-		"@smithery/cli": "^1.2.4",
+		"@smithery/cli": "^1.2.20",
 		"tsx": "^4.19.4"
 	}
 }
