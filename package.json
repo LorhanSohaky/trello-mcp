@@ -27,7 +27,7 @@
 	"author": "Lorhan Sohaky <contato+gi74@lorhan.me>",
 	"license": "MIT",
 	"dependencies": {
-		"@biomejs/biome": "^2.1.2",
+		"@biomejs/biome": "^2.2.4",
 		"@modelcontextprotocol/sdk": "^1.17.2",
 		"axios": "^1.10.0",
 		"lefthook": "^1.12.2",
