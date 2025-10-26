@@ -1,5 +1,7 @@
 # Trello MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@LorhanSohaky/trello-mcp)](https://smithery.ai/server/@LorhanSohaky/trello-mcp)
+
 A Model Context Protocol (MCP) server for interacting with the Trello API. This server enables AI assistants to retrieve information from Trello cards through a standardized interface.
 
 ## Features
@@ -10,6 +12,14 @@ A Model Context Protocol (MCP) server for interacting with the Trello API. This 
 - **Debug Support**: Optional debug logging for troubleshooting
 
 ## Installation
+
+### Installing via Smithery
+
+To install Trello Integration Server automatically via [Smithery](https://smithery.ai/server/@LorhanSohaky/trello-mcp):
+
+```bash
+npx -y @smithery/cli install @LorhanSohaky/trello-mcp
+```
 
 ### Prerequisites
 
